@@ -2,5 +2,5 @@
 Code for the 2016 Robot
 
 **todo**
-[] Fix all the bad code
-[] Autonomous
+-[ ] Fix all the bad code
+-[ ] Autonomous
