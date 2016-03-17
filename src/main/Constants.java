@@ -1,9 +1,9 @@
 package main;
 
-import edu.wpi.first.wpilibj.CANTalon;
+import edu.wpi.first.wpilibj.CANTalon.TalonControlMode;
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.DoubleSolenoid.Value;
-import edu.wpi.first.wpilibj.CANTalon.*;
+
 
 /**
  * The RobotMap is a mapping from the ports sensors and actuators are wired into

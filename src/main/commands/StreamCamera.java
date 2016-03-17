@@ -1,13 +1,13 @@
 package main.commands;
 
-import edu.wpi.first.wpilibj.Timer;
+/**import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Command;
 import main.Robot;
 
 /**
  *
  */
-public class StreamCamera extends Command {
+/**public class StreamCamera extends Command {
 	  private static final int FPS = 30;
 	  private Thread captureThread;
 
@@ -50,3 +50,4 @@ public class StreamCamera extends Command {
 	    end();
 	  }
 	}
+*/

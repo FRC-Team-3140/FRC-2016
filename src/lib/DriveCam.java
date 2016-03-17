@@ -1,4 +1,5 @@
 package lib;
+/**
 
 import com.ni.vision.NIVision;
 import com.ni.vision.NIVision.DrawMode;
@@ -32,7 +33,7 @@ public class DriveCam {
          * grab an image, draw the circle, and provide it for the camera server
          * which will in turn send it to the dashboard.
          */
-        NIVision.Rect rect = new NIVision.Rect(10, 10, 100, 100);
+        /*NIVision.Rect rect = new NIVision.Rect(10, 10, 100, 100);
 
         //while (teleop && enabled) {
         while(enabled) {
@@ -43,9 +44,10 @@ public class DriveCam {
             CameraServer.getInstance().setImage(frame);
 
             /** robot code here! **/
-            Timer.delay(0.005);		// wait for a motor update time
+            /*Timer.delay(0.005);		// wait for a motor update time
         }
         NIVision.IMAQdxStopAcquisition(session);
     }
 
-}
+}*/
+

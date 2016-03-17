@@ -1,12 +1,12 @@
 package main.commands;
 
-import edu.wpi.first.wpilibj.command.Command;
+/**import edu.wpi.first.wpilibj.command.Command;
 import main.Robot;
 
 /**
  *
  */
-public class SwitchCamera extends Command {
+/**public class SwitchCamera extends Command {
 
     public SwitchCamera() {
     	requires(Robot.cc);
@@ -43,4 +43,4 @@ public class SwitchCamera extends Command {
     // subsystems is scheduled to run
     protected void interrupted() {
     }
-}
+}*/

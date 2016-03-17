@@ -2,7 +2,7 @@ package main;
 
 import lib.joystick.AdvJoystick;
 import lib.joystick.XboxController;
-import main.commands.SwitchCamera;
+//import main.commands.SwitchCamera;
 import main.commands.groups.DeployLeft;
 import main.commands.groups.DeployRight;
 import main.commands.groups.IntakeBall;
@@ -48,7 +48,7 @@ public class OI implements Constants {
 
 	private void check() {
 		xbox.start.whenPressed(new ToggleComp());
-		xbox.select.whenPressed(new SwitchCamera());
+		//xbox.select.whenPressed(new SwitchCamera());
 		// Bumpers
 		xbox.leftBumper.whenPressed(new IntakeBall());
 		xbox.leftBumper.whenReleased(new Stop());

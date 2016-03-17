@@ -1,4 +1,3 @@
-
 package main;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
@@ -8,13 +7,14 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import main.commands.drivetrain.Drive;
-import main.subsystems.CameraController;
+//import main.subsystems.CameraController;
 import main.subsystems.Drivetrain;
 import main.subsystems.LeftTomahawk;
 import main.subsystems.Pneumatics;
 import main.subsystems.RightTomahawk;
 import main.subsystems.Shooter;
 import main.subsystems.Turret;
+import lib.Vision;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -25,7 +25,8 @@ import main.subsystems.Turret;
  */
 public class Robot extends IterativeRobot {
 
-	public static CameraController cc;
+	//public static CameraController cc;
+	public static Vision v;	
 	public static Drivetrain dt;
 	public static Shooter sh;
 	public static Turret tr;
@@ -43,7 +44,8 @@ public class Robot extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {
-    	cc = new CameraController(50);
+    	//cc = new CameraController(50);
+    	v = Vision.getInstance();
     	dt = Drivetrain.getInstance();
     	sh = Shooter.getInstance();
     	tr = Turret.getInstance();

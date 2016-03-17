@@ -1,6 +1,6 @@
 package main.subsystems;
 
-import com.ni.vision.NIVision;
+/**import com.ni.vision.NIVision;
 import com.ni.vision.NIVision.Image;
 
 import edu.wpi.first.wpilibj.CameraServer;
@@ -11,7 +11,7 @@ import main.commands.StreamCamera;
 /**
  *
  */
-public class CameraController extends Subsystem {
+/**public class CameraController extends Subsystem {
 	//private static CameraController instance;
     private static CameraServer server = CameraServer.getInstance();
     private static USBCamera bowCam, sternCam, targetCam;
@@ -109,5 +109,5 @@ public class CameraController extends Subsystem {
     public void initDefaultCommand() {
     	setDefaultCommand(new StreamCamera());
     }
-}
+}*/
 
